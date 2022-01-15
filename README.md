@@ -7,12 +7,12 @@ Simple library that provides an abstraction over static DateTime and DateTimeOff
 # Install via Nuget
 
 ```
-Install-Package Tappau.DateTimeProvider -Version 1.0.0
+Install-Package Tappau.DateTimeProvider
 ```
 
 For only the abstactions you can also use this
 ```
-Install-Package Tappau.DateTimeProvider.Abstractions -Version 1.0.1
+Install-Package Tappau.DateTimeProvider.Abstractions
 ```
 
 
