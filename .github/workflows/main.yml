@@ -33,6 +33,6 @@ jobs:
         
       - name: Publish
         if: startswith(github.ref, 'refs/heads/master')
-        run: nuget push **\*.nupkg -source 'https://api.nuget.org/v3/index.json' --Api-Key ${{secrets.NUGET_API_KEY}}
+        run: dotnet nuget push **\*.nupkg -s https://api.nuget.org/v3/index.json -k ${{secrets.NUGET_API_KEY}} --skip-duplicate
 
 
