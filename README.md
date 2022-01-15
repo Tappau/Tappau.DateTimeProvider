@@ -10,6 +10,11 @@ Simple library that provides an abstraction over static DateTime and DateTimeOff
 Install-Package Tappau.DateTimeProvider -Version 1.0.0
 ```
 
+For only the abstactions you can also use this
+```
+Install-Package Tappau.DateTimeProvider.Abstractions -Version 1.0.1
+```
+
 
 Has a Microsoft.ServiceCollection.Extension to register either of the implementations as Singleton.
 
